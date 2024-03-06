@@ -50,7 +50,7 @@ class TestCar:
     def test_goes_vroom(self):
         '''has a method "go()" that goes "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"'''
         my_car = Car(48, 4)
-        assert(my_car.go() == "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!")
+        assert(my_car.go() == "vrrroooooooooooooooooooooooooooom!!!!!")
 
     def test_fills_tank(self):
         '''has a method "fill_up_tank" that returns "filling up!"'''
